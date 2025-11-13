@@ -42,11 +42,8 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     implementation "com.andkulikov:transitionseverywhere:1.7.9"
 
-    implementation(project(':pushdown-anim-click'))
+    
 
-//    compile( 'com.github.thekhaeng:pushdown-anim-click:1.0.8' ){
-//        exclude group: 'com.android.support'
-//    }
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
